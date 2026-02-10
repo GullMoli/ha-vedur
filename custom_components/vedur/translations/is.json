@@ -1,0 +1,43 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Veður (Íslenskt veður)",
+        "description": "Veldu hvernig þú vilt velja veðurstöð.",
+        "menu_options": {
+          "popular": "Velja úr algengum stöðvum",
+          "custom": "Slá inn stöðvanúmer"
+        }
+      },
+      "popular": {
+        "title": "Veldu veðurstöð",
+        "description": "Veldu úr lista yfir algengar íslenskar veðurstöðvar.",
+        "data": {
+          "station_id": "Veðurstöð"
+        }
+      },
+      "custom": {
+        "title": "Stöðvanúmer",
+        "description": "Sláðu inn gilt stöðvanúmer frá Veðurstofu Íslands.\n\nFinna stöðvanúmer á: https://www.vedur.is/vedur/stodvar/",
+        "data": {
+          "station_id": "Stöðvanúmer"
+        }
+      },
+      "language": {
+        "title": "Tungumál viðvarana",
+        "description": "Veldu tungumál fyrir veðurviðvaranir.",
+        "data": {
+          "alert_language": "Tungumál"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Gat ekki tengst Veðurstofu API",
+      "invalid_station": "Ógilt stöðvanúmer eða engin gögn tiltæk fyrir þessa stöð",
+      "unknown": "Óvænt villa kom upp"
+    },
+    "abort": {
+      "already_configured": "Þessi stöð er þegar stillt"
+    }
+  }
+}
