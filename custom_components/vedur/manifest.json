@@ -1,0 +1,12 @@
+{
+  "domain": "vedur",
+  "name": "Veður (Icelandic Weather)",
+  "codeowners": [],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/GullMoli/ha-vedur",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/GullMoli/ha-vedur/issues",
+  "requirements": [],
+  "version": "3.1.0"
+}
