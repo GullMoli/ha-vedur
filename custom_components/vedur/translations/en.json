@@ -1,0 +1,43 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Veður (Icelandic Weather)",
+        "description": "Choose how to select a weather station.",
+        "menu_options": {
+          "popular": "Select from popular stations",
+          "custom": "Enter a custom station ID"
+        }
+      },
+      "popular": {
+        "title": "Select Weather Station",
+        "description": "Choose from a list of popular Icelandic weather stations.",
+        "data": {
+          "station_id": "Weather Station"
+        }
+      },
+      "custom": {
+        "title": "Custom Station ID",
+        "description": "Enter any valid station ID from Veðurstofa Íslands.\n\nFind station IDs at: https://www.vedur.is/vedur/stodvar/",
+        "data": {
+          "station_id": "Station ID"
+        }
+      },
+      "language": {
+        "title": "Alert Language",
+        "description": "Select the language for weather alerts and warnings.",
+        "data": {
+          "alert_language": "Language"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to Veðurstofa API",
+      "invalid_station": "Invalid station ID or no data available for this station",
+      "unknown": "Unexpected error occurred"
+    },
+    "abort": {
+      "already_configured": "This station is already configured"
+    }
+  }
+}
