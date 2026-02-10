@@ -1,4 +1,4 @@
-# Veðurstofa Íslands – Home Assistant Integration
+# Veður (Icelandic Weather) – Home Assistant Integration
 
 Custom Home Assistant integration for weather data from [Veðurstofa Íslands](https://vedur.is) (Icelandic Meteorological Office).
 
@@ -14,18 +14,18 @@ Custom Home Assistant integration for weather data from [Veðurstofa Íslands](h
 
 ## Installation
 
-### HACS (recommended)
+### ~~HACS (not yet available)~~
 
-1. Add this repository as a custom repository in HACS
-2. Search for "Veðurstofa Íslands" and install
-3. Restart Home Assistant
-4. Go to **Settings → Devices & Services → Add Integration → Veðurstofa Íslands**
+~~1. Add this repository as a custom repository in HACS~~
+~~2. Search for "Veður" and install~~
+~~3. Restart Home Assistant~~
+~~4. Go to **Settings → Devices & Services → Add Integration → Veður**~~
 
-### Manual
+### Manual (recommended)
 
 1. Copy the `custom_components/vedur` folder into your Home Assistant `custom_components` directory
 2. Restart Home Assistant
-3. Go to **Settings → Devices & Services → Add Integration → Veðurstofa Íslands**
+3. Go to **Settings → Devices & Services → Add Integration → Veður**
 
 ## Setup
 
